@@ -30,7 +30,7 @@ Some of the key items in the above articles that you'll need to understand inclu
 
 - There's a 1:1 mapping between an ExpressRoute circuit and a customer s-key.
 
-- Each circuit can support up to 3 independent peering relationships (Azure Public peering, Azure Private peering, and Microsoft peering); Office 365 requires Microsoft peering.
+- Each circuit can support up to 2 independent peering relationships (Azure Private peering and Microsoft peering). Azure Private peering is used for Virtual network. Microsoft is used for Office 365, Dynamics 365 and Azure publics services (public IPs)
 
 - Each circuit has a fixed bandwidth that is shared across all peering relationships.
 
